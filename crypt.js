@@ -155,5 +155,5 @@ function register() {
     }
 
     alert("Başarıyla Kayıt Olundu")
-    window.location.href = "main.html"
+    window.location.href = "index.html"
 }
