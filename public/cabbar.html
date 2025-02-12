@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypter</title>
+    <link rel="stylesheet" href="cabbar.css">
+    <link rel="icon" type="image/png" href="foto/logo.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Dehşet derecede muhteşem ve kusursuz encrypter</h1>
+        <div class="dropdown">
+            <button class="dropbtn" id="dropdownButton" onclick="toggleDropdown()">Algoritma Seç</button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="#" onclick="selectOption('Ahmet')">Ahmet</a>
+                <a href="#" onclick="selectOption('Burak')">Burak</a>
+                <a href="#" onclick="selectOption('HK416')">HK416</a>
+                <a href="#" onclick="selectOption('MP5SD')">MP5SD</a>
+            </div>
+        </div>
+        <textarea id="inputText" placeholder="Idk what to write here"></textarea>
+        <button onclick="processText()">Process</button>
+        <div id="output"></div>
+    </div>
+    <div class="left-bottom-button">
+        <a href="ana.html">Ana Sayfa</a>
+    </div>
+
+    <script src="crypt.js"></script>
+</body>
+</html>
